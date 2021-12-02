@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/01073865290819.5d61d475f0072.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "game";
+  src: url(./style/fonts/gamw2.ttf);
+}
+
+.gameBoy_img {
+  background: url(/src/style/fonts/kisspng-game-boy-color-video-game-consoles-purple-color-5b3720c46134e9.1930261215303395243982.png);
+  background-repeat: no-repeat; 
+  margin-top: 8em;
+  background-size: 50%;
+  margin-left: 30%;
+  height: 800px;
+}
+
+.question {
+  font-size: 1.8em;  
+  width: 200px !important;height: 200px;
+  margin-left: 8.1em;  
+  padding-top: 2.5em !important;
+  font-family: "game";color: rgb(0, 0, 0);
+}
+
+.option-btn {
+  padding: 50px;
+  border-radius: 70px;  margin-left: 1em; width: 100%;  
+}
+
+.option-btn-last {
+  padding: 50px;
+  border-radius: 70px; margin-right: 50em;
+}
+
+
+
+.game_start {
+  font-size: 10em;  
+  font-family: "game";
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 2em;
+  width: 500px;font-weight: bold;
+  padding-bottom: .11em;
+  text-shadow: 4px 4px  #131313;
+  background-color: rgb(233, 108, 51);
+  color: white;text-transform: uppercase;
+  border-radius: 5px 5px;
+  border: 8px solid #df6541 !important;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.205);
+  animation: jello-horizontal 2s ease-in-out infinite both;
+}
+
+@keyframes jello-horizontal {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
