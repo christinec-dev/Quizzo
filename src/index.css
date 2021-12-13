@@ -1,16 +1,75 @@
 body {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/01073865290819.5d61d475f0072.jpg);
+  background-image: url(./style/fonts/bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  text-align: center;
+
 }
 
 @font-face {
   font-family: "game";
   src: url(./style/fonts/gamw2.ttf);
+}@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+
+.EndScreen {
+  background-color: rgb(230, 221, 146);
+  margin: 4em;
+  padding: 2.5em;
+  margin-top: 6em;
+  padding-bottom: 10em;
+  border: 5px dashed rgb(190, 186, 165);
+  border-radius: 3em;
+  box-shadow: .5em .5em 1em rgb(98, 99, 13);
+}
+
+h1 {
+  font-size: 5em;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;  
+  font-weight: 600;
+  font-size: 1.5em; width: 50%; 
+  padding: 30px;
+  margin: 0 auto;color: #131313;
+}
+
+.results-score {
+  font-size: 4em;    margin-top: 0em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin: 0 auto;
+  border-bottom: 8px solid rgb(122, 61, 163);border-width: 20px;
+  width: 50%;
+}
+
+.retry {
+  font-size: 3em;  
+  font-family: "game";
+  margin: 0 auto;  margin-top: 1em;
+  align-items: center;
+  width: 500px;
+  font-weight: bold;
+  padding-bottom: .11em;
+  text-shadow: 4px 4px  #814f2e;
+  background-color: rgb(150, 87, 252);
+  text-shadow: 4px 4px  #461752;
+  border: 8px solid rgb(126, 77, 206) !important;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px 5px;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.205);
+}
+
+.retry:hover {
+  background-color: rgb(233, 108, 51);
+  text-shadow: 4px 4px  #52402b;
+  border: 8px solid #df6541 !important;
+  cursor: pointer;
 }
 
 .gameBoy_img {
-  background: url(/src/style/fonts/kisspng-game-boy-color-video-game-consoles-purple-color-5b3720c46134e9.1930261215303395243982.png);
+  background: url(/src/style/fonts/gameboy-bg.png);
   background-repeat: no-repeat; 
   margin-top: 8em;
   background-size: 50%;
@@ -23,23 +82,84 @@ body {
   width: 200px !important;height: 200px;
   margin-left: 8.1em;  
   padding-top: 2.5em !important;
-  font-family: "game";color: rgb(0, 0, 0);
+  font-family: "game";
+  color: rgb(0, 0, 0);
 }
 
 .option-btn {
-  padding: 50px;
-  border-radius: 70px;  margin-left: 1em; width: 100%;  
+  padding: 25px;
+  border-radius: 70px;
+  background-color: rgb(37, 37, 37);
+  border: none;min-width: 30%;
+  color: #9c9b9b;
+  font-weight: 900;
+  margin: .2em;
+  font-family: 'Raleway', sans-serif;font-size: .9em;
+  box-shadow: 3px 3px 2px rgb(31, 30, 30);
 }
 
-.option-btn-last {
-  padding: 50px;
-  border-radius: 70px; margin-right: 50em;
+.option-btn:focus {
+  background-color: rgb(93, 183, 243);
+ transition-duration: .1s;
+  color: #131313; 
 }
 
+.option-btn:hover {
+  background-color: rgb(243, 215, 93);
+  color: #131313; cursor: pointer;
+  transition-duration: .2s;
+}
 
+.break {
+  margin: 1em;
+}
+
+.answers {
+  margin-right: 46em;
+  margin-top: 5.5em;
+  margin-left: 4em;
+}
+
+.answer-skip {
+  margin-right: 46em;
+  margin-top: 2em;
+  margin-left: 5em;
+}
+
+.nextQuestion {
+  border: none;
+  background-color: rgba(9, 255, 0, 0);
+  font-size: 2em; 
+  color: rgb(243, 215, 93);
+  font-weight: 900;
+  text-shadow: .4px 2px 2px rgb(56, 52, 14); transition-duration: .2s;
+}
+
+.nextQuestion:hover {
+  color: rgb(126, 240, 98);
+  cursor: pointer;
+}
+
+.lastQuestion { 
+  margin-right: 26em;
+  margin-top: 1em;
+  margin-left: 5em;
+  border: none;
+  background-color: rgba(9, 255, 0, 0);
+  font-size: 2em; 
+  color: rgb(52, 216, 37);
+  font-weight: 900;  
+  font-family: 'Raleway', sans-serif;
+  text-shadow: .4px 2px 2px rgb(56, 52, 14); transition-duration: .2s;
+}
+
+.lastQuestion:hover {
+  color: rgb(240, 202, 98);
+  cursor: pointer;
+}
 
 .game_start {
-  font-size: 10em;  
+  font-size: 10em;
   font-family: "game";
   margin: 0 auto;
   align-items: center;
@@ -53,6 +173,13 @@ body {
   border: 8px solid #df6541 !important;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.205);
   animation: jello-horizontal 2s ease-in-out infinite both;
+}
+
+.game_start:hover {
+  background-color: rgb(150, 87, 252);
+  text-shadow: 4px 4px  #461752;
+  border: 8px solid rgb(126, 77, 206) !important;
+  cursor: pointer;
 }
 
 @keyframes jello-horizontal {
