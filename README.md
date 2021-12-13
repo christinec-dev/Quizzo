@@ -1,16 +1,24 @@
-# Quizzer
+# Quizzo
 This repository contains a fully functional quiz revolving around video games. This project was made with React, and it contains 20 questions made by me from my own video game "knowledge". I got inspired to make this when I was done with my final exams for the year, and wanted to jump back into React. It's not much, but it's honest work.
 
-I used React Context for the first time in this project - and I do recoomend you read these articles if you're new to it: 
-- https://www.freecodecamp.org/news/react-context-for-beginners/
-- https://www.smashingmagazine.com/2020/01/introduction-react-context-api/
+#### I used React Context for the first time in this project - and I do recoomend you read these articles if you're new to it: 
+- https://www.freecodecamp.org/news/react-context-for-beginners
+- https://www.smashingmagazine.com/2020/01/introduction-react-context-api
+
+#### The images and fonts were found here respectively:
+- https://www.fontspace.com
+- https://www.kindpng.com
+- https://www.freepik.com
 
 ## Main UI 
-
+![Screenshot 2021-12-13 160838](https://user-images.githubusercontent.com/87696858/145829434-3ef0ae5a-baa0-4373-b3b2-da3592940e3d.png)
 
 ## Playing Screen Example 
+![Screenshot 2021-12-13 160808](https://user-images.githubusercontent.com/87696858/145829450-cd137331-3fe0-4a66-846b-57ef71420adc.png)
 
-
+## Average Result Screen
+![Screenshot 2021-12-13 160826](https://user-images.githubusercontent.com/87696858/145829501-31db3e27-e546-4eae-b8a0-85c12091e22b.png)
+![Screenshot 2021-12-13 161238](https://user-images.githubusercontent.com/87696858/145829510-3ea26f35-bde3-4f38-b588-8f4ab5464f74.png)
 
 # Getting Started with Create React App
 
